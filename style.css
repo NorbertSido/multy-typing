@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+span {
+    color: #a52a2a;
+    display: inline-flex;
+    align-items: center;
+}
+
+span::after{
+    display: inline-block;
+    content: '';
+    width: 4px;
+    height: 55px;
+    background-color: #a52a2a;
+    margin-left: 4px;
+
+}
